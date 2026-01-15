@@ -142,7 +142,7 @@ Diese Werte werden mittels "offset binary coding" codiert.
 
 Beispiel AD5781:<br>
 
-$ V_{RefN} = -5V$ und $ V_{RefP} = 5V$<br>
+$V_{RefN} = -5V$ und $V_{RefP} = 5V$<br>
 ```console
 -5V:  echo 0 > out_voltage0_raw
  0V:  echo 131072 > out_voltage0_raw
@@ -150,7 +150,7 @@ $ V_{RefN} = -5V$ und $ V_{RefP} = 5V$<br>
 ````
 <br>
 
-$ V_{RefN} = 0V$ und $ V_{RefP} = 5V$<br>
+$V_{RefN} = 0V$ und $V_{RefP} = 5V$<br>
 
 ```console
 0V:  echo 0 > out_voltage0_raw
@@ -176,7 +176,7 @@ echo 1 > power_down_mode
 ```
 aktiviert.
 
-Auszug Control Register:
+Auszug aus dem Control Register:
 
 |    | SDODIS<br> 5 | BIN/2sC <br> 4   | DACTRI<br> 3   | OPGND <br>2| RBuf <br> 1| Reserved <br> 0|
 |:---------:|:-----------:|:----------:|:----------:|:------:|:----:|:--:|

@@ -278,18 +278,18 @@ IIO context has 4 devices:
 
 
 
-[^1] https://www.analog.com/media/en/technical-documentation/data-sheets/ad5781.pdf
+[^1]: https://www.analog.com/media/en/technical-documentation/data-sheets/ad5781.pdf
 
-[^2] https://www.analog.com/media/en/technical-documentation/data-sheets/ad5791.pdf
+[^2]: https://www.analog.com/media/en/technical-documentation/data-sheets/ad5791.pdf
 
-[^3] https://wiki.analog.com/resources/tools-software/linux-software/kuiper-linux#sd_card_image_and_release_notes
+[^3]: https://wiki.analog.com/resources/tools-software/linux-software/kuiper-linux#sd_card_image_and_release_notes
 
-[^4] https://ez.analog.com/linux-software-drivers/f/q-a/584295/upgrading-cn0566-to-raspberry-pi-5
+[^4]: https://ez.analog.com/linux-software-drivers/f/q-a/584295/upgrading-cn0566-to-raspberry-pi-5
 
-[^5] https://wiki.analog.com/resources/tools-software/linux-build/generic/raspberrypi
+[^5]: https://wiki.analog.com/resources/tools-software/linux-build/generic/raspberrypi
 
-[^6] https://www.linkedin.com/pulse/raspberry-pi-5-kernel-build-guide-david-zhu-pkihc
+[^6]: https://www.linkedin.com/pulse/raspberry-pi-5-kernel-build-guide-david-zhu-pkihc
 
-[^7] https://blog.berrybase.de/raspberry-pi-5-grafikkarte-linux-kernel-kompilieren
+[^7]: https://blog.berrybase.de/raspberry-pi-5-grafikkarte-linux-kernel-kompilieren
 
-[^8] https://github.com/analogdevicesinc/linux/blob/rpi-6.6.y/Documentation/devicetree/bindings/iio/dac/adi%2Cad5791.yaml
+[^8]: https://github.com/analogdevicesinc/linux/blob/rpi-6.6.y/Documentation/devicetree/bindings/iio/dac/adi%2Cad5791.yaml

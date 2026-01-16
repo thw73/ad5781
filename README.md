@@ -5,7 +5,7 @@ Ansteuerung des AD5781 [^1] bzw. AD5791 [^2] DA-Wandlers
 
 ## Ansteuerung via RaspberryPi mit dem Linux Industrial I/O Subsystem (IIO)
 
-Es gibt ein Kupier Linux [^3] von Analog Device, auf dem die Linux Device Treiber für Produkte von Analog Devices schon verfügbar sind. Allerdings unterstützt die Version 2023_r2 Patch1 noch keinen RaspberryPI 5 [^4]. Hier muss der Kernel selber erstellt werden.  [RaspberryPI 5](#raspberrypi-5)
+Kupier Linux [^3] von Analog Device, stellt die Linux Device Treiber für die Produkte von Analog Devices zur Verfügung. Allerdings unterstützt die Version 2023_r2 Patch1 noch keinen RaspberryPI 5 [^4]. Hier muss der Kernel mit den Treibern selber erstellt werden.  [RaspberryPI 5](#raspberrypi-5)
 
 ### Verbindung AD5781 / 91 mit dem RaspberryPI
 

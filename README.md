@@ -86,7 +86,7 @@ jetzt muss das DTS-File noch in ein DTBO-File umgewandelt werden.
 dtc -I dts -O dtb -o rpi-AD5781.dtbo rpi-AD5781-overlay.dts
 
 ````
-Diese DTBO-File nach /boot/firmware/overlays/ kopieren und in der config.txt aktivieren.
+Dieses DTBO-File nach /boot/firmware/overlays/ kopieren und in der config.txt aktivieren.
 
 ```console
 pi@raspberryPi5:~ $ sudo nano /boot/config.txt

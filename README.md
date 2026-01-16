@@ -126,9 +126,9 @@ Dieser Befehl löscht das OPGNF und das DACTRI Flag und schaltet der DA-Wandler 
 
 Status Control Register nach "echo 0 > power_down_mode"
 
-|  |  R/W <br> 23 |  Register address <br> 22,21,20 |Reserved<br>19 ,..., 10  |  LIN COMP<br> 6,7,8,9  | SDODIS<br> 5 | BIN / 2SC <br> 4   | DACTRI<br> 3   | OPGND <br>2| RBuf <br> 1| Reserved<br> 0|
-|:---------:|:---------:|:---------:|:---------:|:---------:|:-----------:|:----------:|:----------:|:------:|:----:|:--:|
-|     |  0   |    0 1 0        |   0       |   0         |  0         | 1         | 0           | 0      | 1   | 0 |
+|  R/W <br> 23 |  Register address <br> 22,21,20 |Reserved<br>19 ,..., 10  |  LIN COMP<br> 6,7,8,9  | SDODIS<br> 5 | BIN / 2SC <br> 4   | DACTRI<br> 3   | OPGND <br>2| RBuf <br> 1| Reserved<br> 0|
+|:---------:|:---------:|:---------:|:---------:|:-----------:|:----------:|:----------:|:------:|:----:|:--:|
+|  0   |    0 1 0        |   0       |   0         |  0         | 1         | 0           | 0      | 1   | 0 |
 
 
 Jetzt kann z.B. mittels

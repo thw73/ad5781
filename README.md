@@ -19,7 +19,7 @@ Kupier Linux [^3] von Analog Device, stellt die Linux Device Treiber für die Pr
 Wenn der DA-Wandler AD5791 angesteuert werden soll, kann das mitgelieferte DTBO File (rpi-ad5791.dtbo) verwendet werden. Hierzu muss der Treiber nur in der config.txt aktiviert werden:
 
 ```console
-pi@raspberryPi5:~ $ sudo nano /boot/config.txt
+pi@raspberryPi5:~ $ sudo nano /boot/firmware/config.txt
 
 # Uncomment some or all of these to enable the optional hardware interfaces 
 #dtparam=i2c_arm=on 

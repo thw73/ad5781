@@ -118,7 +118,7 @@ root@raspberryPi5:/sys/bus/iio/devices/iio:device0# cat out_voltage_offset
 Mittels 
 
 ```bash
-root@raspberryPi5: echo 0 > power_down_mode
+root@raspberryPi5: echo 0 > out_voltage_powerdown
 ````
 wird der DA-Wandler in den "Normal Modus" geschaltet.
 

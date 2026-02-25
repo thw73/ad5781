@@ -199,9 +199,12 @@ Folgende Schritte sind durchzuführen um den Kernel direkt auf dem RaspberryPI 5
   mkdir ~/build && cd ~/build
 
 3. Repo von AnalogDevices clonen<br>
+	--depth=1 : clont nur den letzten Commit und nicht die komplette Historie
+
+```bash
    git clone --depth=1 https://github.com/analogdevicesinc/linux -b rpi-6.6.y <br>
-   
-   --depth=1 : clont nur den letzten Commit und nicht die komplette Historie
+```
+
 
 4. export ARCH=arm64
 

@@ -172,7 +172,7 @@ echo three_state  > out_voltage_powerdown_mode
 der ensprechende Wert gesetzt werden. Diese Einstellung wird dann mittels
 
 ```console
-echo 1 > power_down_mode
+echo 1 > out_voltage_powerdown
 ```
 aktiviert.
 
